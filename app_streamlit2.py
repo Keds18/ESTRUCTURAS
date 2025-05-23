@@ -222,4 +222,12 @@ if st.button("Generar gráfico general y tabla"):
     
     # Generar el gráfico general usando la función Grafica
     f.Grafica(Long, x, DMF, DFC)
-    
+
+st.markdown("""
+<hr>
+<div style='text-align: center; font-size: 0.9em; color: gray;'>
+    <p>© 2025 <strong>Kevin_Galindo_Antezana</strong></p>
+    <p>📧 Contacto: <a href="mailto:keds1810@gmail.com">keds1810@gmail.com</a></p>
+    <p>Developed with Python + Streamlit</p>
+    </div>
+""", unsafe_allow_html=True)
