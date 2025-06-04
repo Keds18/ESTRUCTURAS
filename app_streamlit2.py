@@ -8,6 +8,9 @@ import pandas as pd
 st.markdown("<h1 style='text-align: center; color: #2c3e50;'>🔧 ANÁLISIS ESTRUCTURAL</h1>", unsafe_allow_html=True)
 st.markdown("## 📈 Diagramas de momentos y fuerzas cortantes", unsafe_allow_html=True)
 
+st.sidebar.header("🔧 Parámetros de Entrada")
+st.sidebar.markdown("Completa los siguientes datos de entrada, luego añade las cargas puntuales y distribuidas:")
+
 # SECCIÓN 1: DATOS
 st.markdown("---")
 st.markdown("### 📌 1. Datos de entrada", unsafe_allow_html=True)
